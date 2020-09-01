@@ -66,6 +66,15 @@ function myReduce(arr, attr) {
 	}
 	return result;
 }
+// col metodo 'reduce'
+// const categories = array.reduce(
+// 	(values, item) => {
+// 		if(!values.includes(item.genre)){
+// 			values.push(item.genre)
+// 		}
+// 		return values;
+// 	},[]
+// );
 
 // Primo carattere di una stringa in maiuscolo
 function capitalize(str) {
